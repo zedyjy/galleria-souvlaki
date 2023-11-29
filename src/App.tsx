@@ -46,7 +46,7 @@ function App() {
             ],
         },
         {
-            title: 'My new home (to be continued)',
+            title: 'Bilkent (to be continued)',
             date: '2023-11-29', // Adjust the date as needed
             photos: [
                 { name: 'CampusPictures (2).jpg', url: '/CampusPictures/CampusPictures (1).jpg' },
