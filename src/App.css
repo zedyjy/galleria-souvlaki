@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@layer base {
+    * {
+        @apply border-border;
+    }
+    html {
+        font-family: General Sans, system-ui, sans-serif;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Global Styles */
+* {
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    font-family: 'General Sans', system-ui, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    border: 1px solid black;
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar Styles */
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+    width: 150vh;
+    margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.topnav a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    color: black;
+}
+
+header {
+    font-weight: bolder;
+    font-size: 30vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav {
+        width: max-content;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; /* Add this line for better spacing */
+    }
+
+    .topnav a {
+        text-align: center;
+        margin: 0px;
+        padding: 3px 10px; /* Adjust padding for better spacing */
+    }
+
+    header {
+        font-size: 7vh; /* Adjust the font size for smaller screens */
+    }
+}
+
+

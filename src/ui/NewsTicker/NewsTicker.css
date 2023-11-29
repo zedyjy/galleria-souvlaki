@@ -1,0 +1,119 @@
+/* NewsTicker.css */
+
+.flex {
+    display: flex;
+}
+
+.bg-black {
+    background-color: black;
+    width: 50vh;
+    margin: auto;
+    text-align: center; /* Center the text */
+    padding: 0.625rem 1.5rem; /* Adjusted padding */
+}
+
+.text-white {
+    color: white;
+}
+
+.py-5 {
+    padding-top: 0px; /* Adjusted height */
+    padding-bottom: 0px; /* Adjusted height */
+}
+
+.max-w-[95rem] {
+    max-width: 95rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.sliding-ticker {
+    width: fit-content; /* Set width to fit the content */
+    margin: auto; /* Center the sliding ticker */
+}
+
+.sliding-ticker .overflow-visible {
+    overflow: visible;
+}
+
+.sliding-ticker .overflow-hidden {
+    overflow: hidden;
+}
+
+.sliding-ticker .whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.sliding-ticker .relative {
+    position: relative;
+}
+
+.sliding-ticker .flex {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.sliding-ticker .gap-4 {
+    gap: 0.5rem; /* Adjusted gap */
+}
+
+.sliding-ticker .right-0 {
+    right: 0;
+}
+
+.sliding-ticker p {
+    font-size: 14px; /* Adjusted font size */
+    margin: 0; /* Remove default margin */
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.sm\\:hidden {
+    display: none;
+}
+
+.sm\\:block {
+    display: block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
