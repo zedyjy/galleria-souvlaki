@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/galleria-souvlaki/static/css/main.46f679d9.css",
-    "main.js": "/galleria-souvlaki/static/js/main.e8a8bc30.js",
+    "main.js": "/galleria-souvlaki/static/js/main.eb337a63.js",
     "static/js/787.0fae1829.chunk.js": "/galleria-souvlaki/static/js/787.0fae1829.chunk.js",
     "index.html": "/galleria-souvlaki/index.html",
     "main.46f679d9.css.map": "/galleria-souvlaki/static/css/main.46f679d9.css.map",
-    "main.e8a8bc30.js.map": "/galleria-souvlaki/static/js/main.e8a8bc30.js.map",
+    "main.eb337a63.js.map": "/galleria-souvlaki/static/js/main.eb337a63.js.map",
     "787.0fae1829.chunk.js.map": "/galleria-souvlaki/static/js/787.0fae1829.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46f679d9.css",
-    "static/js/main.e8a8bc30.js"
+    "static/js/main.eb337a63.js"
   ]
 }
