@@ -1,0 +1,114 @@
+/* Articles.css */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Articles.css */
+.acontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.acontainer h1 {
+    margin-bottom: 20px;
+}
+
+.acontainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acontainer li {
+    width: 187vh;
+    background-color: black ;
+    color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.acontainer li:hover {
+    transform: scale(1.05);
+}
+
+.acontainer li h3{
+    padding: 10px;
+}
+
+.acontainer li p {
+    padding: 1px;
+    margin-left: 10px;
+    padding-left: 10vh;
+}
+
+.full-article {
+    width: 150%; /* Adjust as needed */
+    max-width: 187vh; /* Set a maximum width for better readability on larger screens */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    text-align: center;
+    margin: 10vh auto 10vh;
+}
+
+.full-article button {
+    background-color: #3F704D;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.full-article button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    .acontainer li {
+        width: 80vh; /* Adjust as needed */
+    }
+
+    .full-article {
+        width: 90%; /* Adjust as needed */
+        max-width: none;
+    }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .acontainer li {
+        width: 50vh; /* Adjust as needed */
+    }
+
+    .full-article {
+        width: 90%; /* Adjust as needed */
+        max-width: none;
+    }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 480px) {
+    .acontainer li {
+        width: 40vh; /* Adjust as needed */
+    }
+
+    .full-article {
+        width: 90%; /* Adjust as needed */
+        max-width: none;
+    }
+}
+

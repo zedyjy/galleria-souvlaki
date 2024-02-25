@@ -38,8 +38,8 @@ export default function NewsTicker() {
         <div className="flex bg-black text-white py-5 max-w-[95rem] w-full mx-auto relative overflow-hidden">
             <div className="z-10 px-6">
         <span className="flex gap-2 font-semibold uppercase whitespace-nowrap">
-          <p>News</p>
-          <p className="block sm:hidden">+++</p>
+          <p className="news">News</p>
+          <p className="news">+++</p>
           <p className="hidden sm:block">Ticker +++</p>
         </span>
             </div>

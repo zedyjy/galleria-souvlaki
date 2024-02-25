@@ -7,7 +7,6 @@
     }
     body {
         @apply bg-background text-foreground;
-        background-color: #FDFFF5;
     }
 }
 
@@ -21,15 +20,10 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    border: 1px solid black;
     margin: 0;
 }
 
-.wrapper {
-    flex: 1;
-}
 /* Navbar Styles */
 .topnav {
     display: flex;
@@ -62,15 +56,6 @@ header {
     text-align: center;
 }
 
-.exhibition-title{
-    min-height: 0vh;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-
-
 @media screen and (max-width: 768px) {
     .topnav {
         width: max-content;
@@ -89,5 +74,7 @@ header {
         font-size: 7vh; /* Adjust the font size for smaller screens */
     }
 }
-
+.brand{
+    float: left;
+}
 
