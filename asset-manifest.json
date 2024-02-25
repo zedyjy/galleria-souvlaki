@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/photopgraphy_website/static/css/main.107ee213.css",
-    "main.js": "/photopgraphy_website/static/js/main.f3a68fb4.js",
-    "static/js/787.0fae1829.chunk.js": "/photopgraphy_website/static/js/787.0fae1829.chunk.js",
-    "index.html": "/photopgraphy_website/index.html",
-    "main.107ee213.css.map": "/photopgraphy_website/static/css/main.107ee213.css.map",
-    "main.f3a68fb4.js.map": "/photopgraphy_website/static/js/main.f3a68fb4.js.map",
-    "787.0fae1829.chunk.js.map": "/photopgraphy_website/static/js/787.0fae1829.chunk.js.map"
+    "main.css": "/galleria-souvlaki/static/css/main.107ee213.css",
+    "main.js": "/galleria-souvlaki/static/js/main.cceef140.js",
+    "static/js/787.05f55742.chunk.js": "/galleria-souvlaki/static/js/787.05f55742.chunk.js",
+    "index.html": "/galleria-souvlaki/index.html",
+    "main.107ee213.css.map": "/galleria-souvlaki/static/css/main.107ee213.css.map",
+    "main.cceef140.js.map": "/galleria-souvlaki/static/js/main.cceef140.js.map",
+    "787.05f55742.chunk.js.map": "/galleria-souvlaki/static/js/787.05f55742.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.107ee213.css",
-    "static/js/main.f3a68fb4.js"
+    "static/js/main.cceef140.js"
   ]
 }
