@@ -33,11 +33,11 @@ function Home() {
             title: 'Wherever you shoot, it looks good in Italy',
             date: '2023-08-16',
             photos: [
-                { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (3).jpg' },
+                { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (3).JPG' },
                 { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (10).JPG' },
                 { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (12).JPG' },
                 { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (18).JPG' },
-                { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (4).JPG' },
+                { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (4).jpg' },
                 { name: 'ItalyPictures (3).jpg', url: '/galleria-souvlaki/ItalyPictures/ItalyPictures (20).JPG' }
                 // Add more photos as needed
             ],
